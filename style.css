@@ -75,6 +75,10 @@ html{
 }
 
 /* about-part */
+.img-size{
+    display: block;
+    margin: 0 auto;
+}
 .about{
     background: black;
 }
@@ -204,6 +208,9 @@ html{
     border-radius: 30px;
     border: none;
   }
+  
+
+
 
   @media screen and (max-width:988px){
     .navbar{
