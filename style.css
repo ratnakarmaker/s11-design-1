@@ -70,7 +70,9 @@ html{
 .mid .hero a:hover{
     background: #fff;
 }
-
+.img-size{
+    margin-top: 10px;
+}
 
 /* about-part */
 .about{
