@@ -1,0 +1,183 @@
+.navbar{
+    background-color: black;
+    padding: 1rem 8rem;
+    z-index: 1000;
+}
+.navbar .navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a{
+    color: white;
+    font-size: 1.1rem;
+    padding: 0 0.8rem;
+}
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover{
+    color: #008f85;
+}
+#navbarSupportedContent > button{
+    background: #008f85;
+    font-weight: 600;
+    padding: 0.4rem 1.4rem;
+    border-radius: 30px;
+}
+.mid{
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+}
+.mid video{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    pointer-events: none;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mid .hero{
+    position: relative;
+}
+.mid .hero p{
+    width: 55%;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+    padding-bottom: 1rem;
+}
+.mid .hero a{
+    background: #008f85;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+}
+.mid .hero a:hover{
+    background: #fff;
+}
+
+
+/* about-part */
+.about{
+    background: black;
+}
+.about .text{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   margin:auto; 
+}
+.about .text h6{
+   color: #00BF7F;
+   font-weight: 800;
+   font-size: 1rem;
+   letter-spacing: 2px;
+}
+.about .text h2{
+    color: #F7F5F4;
+    font-weight: 700;
+    font-size: 2.7rem;
+ }
+ .about .text p{
+    color: #F7F5F4;
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+ }
+ .about .text a{
+    background: #00BF85;
+    font-weight: 600;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #111;
+    width: 130px;
+ }
+
+
+ /* discovery-part */
+.discovery .text{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   margin:auto; 
+}
+.discovery .text h6{
+   color: #00BF7F;
+   font-weight: 800;
+   font-size: 1rem;
+   letter-spacing: 2px;
+}
+.discovery .text h2{
+    color: #111;
+    font-weight: 700;
+    font-size: 2.7rem;
+ }
+ .discovery .text p{
+    font-weight: 400;
+    font-size: 1.1rem;
+    letter-spacing: 0.5px;
+ }
+ .discovery .text a{
+    background: #111;
+    font-weight: 500;
+    padding: 0.6rem 1.4rem;
+    border-radius: 30px;
+    text-decoration: none;
+    color: #fff;
+    width: 130px;
+ }
+
+ /* service-part */
+ .service{
+     background: #000;
+ }
+ .service .one{
+     background: #fff;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     text-align: center;
+     text-align: center;
+     padding: 2rem 1.5rem;
+     border-radius: 7px;
+ }
+
+ /* sign part */
+ .sign .text{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin:auto; 
+ }
+ .sign .text h6{
+    color: #00BF7F;
+    font-weight: 800;
+    font-size: 1rem;
+    letter-spacing: 2px;
+ }
+ .sign .text h2{
+     color: #111;
+     font-weight: 700;
+     font-size: 2.7rem;
+  }
+  .sign .text p{
+     font-weight: 400;
+     font-size: 1.1rem;
+     letter-spacing: 0.5px;
+  }
+  .sign .text a{
+     background: #111;
+     font-weight: 500;
+     padding: 0.6rem 1.4rem;
+     border-radius: 30px;
+     text-decoration: none;
+     color: #fff;
+     width: 130px;
+  }
